@@ -6,7 +6,7 @@ defmodule Lists do
 	def max([ head | tail ]), do: Kernel.max(head, max(tail))
 
 	def caesar(charlist, n), do: Enum.map(charlist, &(shift_char(n, &1)))
- 
+
 	defp shift_char(n, c) when n + c <= ?z, do: n+c
 	defp shift_char(n, c), do: n + c - 26
 
