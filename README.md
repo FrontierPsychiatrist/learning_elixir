@@ -1,0 +1,1 @@
+This is just a repo to hold my solutions to the exercises in ["Programming Elixir"](https://pragprog.com/book/elixir/programming-elixir).
